@@ -1,0 +1,140 @@
+{
+  "day1Evidences": [
+    {
+      "id": 10,
+      "title": "title",
+      "description": "description",
+      "imagePath": "quinnpeek",
+      "emailScores": [ 0, 0, 0 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 1,
+      "type": "Photo"
+    },
+    {
+      "id": 11,
+      "title": "REAL Crop Circle",
+      "description": "-",
+      "imagePath": "patsypeek",
+      "emailScores": [ 1, -5, 0 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 1,
+      "type": "Photo"
+    },
+    {
+      "id": 12,
+      "title": "Power Outages In Town",
+      "description": "There was a series of power cuts in town with no warning. No response from power company.",
+      "imagePath": "-",
+      "emailScores": [ 2, -1, -2 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 1,
+      "type": "News"
+    },
+    {
+      "id": 13,
+      "title": "UFO signals interrupting power grid",
+      "description": "There have been reports from all over the world of suspicious power cuts. From the same locations we've recieved photo's of UFO",
+      "imagePath": "filename",
+      "emailScores": [ 0, -2, 2 ],
+      "requiredIds": [ 12 ],
+      "counterIds": [ 0 ],
+      "day": 1,
+      "type": "Blog"
+    }
+  ],
+  "day2Evidences": [
+    {
+      "id": 20,
+      "title": "title",
+      "description": "description",
+      "imagePath": "filename",
+      "emailScores": [ 0, 0, 0 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 2,
+      "type": "Photo"
+    },
+    {
+      "id": 21,
+      "title": "REAL Crop Circle",
+      "description": "-",
+      "imagePath": "cropcircle_11",
+      "emailScores": [ 1, -5, 0 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 2,
+      "type": "Photo"
+    },
+    {
+      "id": 22,
+      "title": "Power Outages In Town",
+      "description": "There was a series of power cuts in town with no warning. No response from power company.",
+      "imagePath": "-",
+      "emailScores": [ 2, -1, -2 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 2,
+      "type": "News"
+    },
+    {
+      "id": 23,
+      "title": "UFO signals interrupting power grid",
+      "description": "There have been reports from all over the world of suspicious power cuts. From the same locations we've recieved photo's of UFO",
+      "imagePath": "filename",
+      "emailScores": [ 0, -2, 2 ],
+      "requiredIds": [ 12 ],
+      "counterIds": [ 0 ],
+      "day": 2,
+      "type": "Photo"
+    }
+  ],
+  "day3Evidences": [
+    {
+      "id": 30,
+      "title": "title",
+      "description": "description",
+      "imagePath": "filename",
+      "emailScores": [ 0, 0, 0 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 3,
+      "type": "Photo"
+    },
+    {
+      "id": 31,
+      "title": "REAL Crop Circle",
+      "description": "-",
+      "imagePath": "cropcircle_11",
+      "emailScores": [ 1, -5, 0 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 3,
+      "type": "Photo"
+    },
+    {
+      "id": 32,
+      "title": "Power Outages In Town",
+      "description": "There was a series of power cuts in town with no warning. No response from power company.",
+      "imagePath": "-",
+      "emailScores": [ 2, -1, -2 ],
+      "requiredIds": [ 0 ],
+      "counterIds": [ 0 ],
+      "day": 3,
+      "type": "News"
+    },
+    {
+      "id": 33,
+      "title": "UFO signals interrupting power grid",
+      "description": "There have been reports from all over the world of suspicious power cuts. From the same locations we've recieved photo's of UFO",
+      "imagePath": "filename",
+      "emailScores": [ 0, -2, 2 ],
+      "requiredIds": [ 12 ],
+      "counterIds": [ 0 ],
+      "day": 3,
+      "type": "Photo"
+    }
+  ]
+}
