@@ -21,10 +21,42 @@ public class LoadEvidence : MonoBehaviour
     void Start()
     {
         LoadJsonFile(evidenceFile);
+        UpdateEvidenceDisplay(1);
+    }
 
-        foreach (Evidence ev in evidences.day1Evidences)
+    void UpdateEvidenceDisplay(int dayNum) 
+    {
+        foreach (GameObject item in instanceList)
         {
-            AddEvidenceToHolder(ev);
+            Destroy(item);
+        }
+        instanceList.Clear();
+
+        switch (dayNum)
+        {
+            case 1:
+                foreach (Evidence ev in evidences.day1Evidences)
+                {
+                    AddEvidenceToHolder(ev);
+                }
+                break;
+
+            case 2:
+                foreach (Evidence ev in evidences.day2Evidences)
+                {
+                    AddEvidenceToHolder(ev);
+                }
+                break;
+
+            case 3:
+                foreach (Evidence ev in evidences.day3Evidences)
+                {
+                    AddEvidenceToHolder(ev);
+                }
+                break;
+
+            default:
+                break;
         }
     }
 

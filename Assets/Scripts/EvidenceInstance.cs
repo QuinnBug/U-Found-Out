@@ -4,13 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class EvidenceInstance : MonoBehaviour
+public class EvidenceInstance : MonoBehaviour, IRClickable
 {
     public TextMeshProUGUI titleTxt = null;
     public TextMeshProUGUI descriptionTxt = null;
     public Image image = null;
 
     private Evidence data;
+
+    public MenuConfig MenuType()
+    {
+        return MenuConfig.EVIDENCE;
+    }
 
     public void Setup(Evidence template) 
     {

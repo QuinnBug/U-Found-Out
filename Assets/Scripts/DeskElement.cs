@@ -2,24 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeskElement : MonoBehaviour
+public class DeskElement : MonoBehaviour, IRClickable
 {
-    public GameObject canvasToLoad;
+    public Screens screenToLoad;
 
-    // Start is called before the first frame update
-    void Start()
+    public MenuConfig MenuType()
     {
-        canvasToLoad.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return MenuConfig.DESK_ELEMENT;
     }
 
     private void OnMouseDown()
     {
-        canvasToLoad.SetActive(true);
+        ScreenManager.Instance.OpenScreen((int)screenToLoad);
     }
 }
